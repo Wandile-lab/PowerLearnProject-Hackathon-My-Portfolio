@@ -1,4 +1,5 @@
 Wandile Ndlovu's Portfolio
+
 Welcome to my personal portfolio website! This portfolio showcases my skills, background, and projects as an aspiring web developer.
 
 Table of Contents
