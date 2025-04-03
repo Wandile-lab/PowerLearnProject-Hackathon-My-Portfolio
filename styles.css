@@ -1,0 +1,305 @@
+*{
+    text-align: center;
+}
+a:visited{
+    color: purple;
+}
+
+/* ===== Background and Layout ===== */
+body{
+    background-image: url(images/backgroundPic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* ===== Social Media Section ===== */
+.socials{
+    display: flex;
+    gap: 5vw; 
+    justify-content: center; 
+    flex-wrap: wrap;  
+    padding: 10px
+}
+
+/* ===== Header Styling ===== */
+header{
+    border: 2px solid rgb(127, 99, 65); ;
+    background-color: #0f1a25;
+    color: #D99C6E;
+    box-shadow: 3px 3px 30px rgba(41, 163, 163, 0.3); 
+    padding: 20px;
+    max-width: 100%;
+}
+
+header h1{
+   margin-bottom: 0px;
+   color: #D99C6E; 
+   font-size: 2em;
+}
+header p{
+    margin-top: 0px;
+    color: #b0b0b0; 
+    
+}
+
+/* ===== Sections (Content Blocks) ===== */
+section {
+     max-width: 100%; 
+     margin: auto; 
+}
+
+
+
+section h1, section h2{
+    color: #A0A7B0;
+    font-weight: bold;
+}
+
+section p{
+    color:  #A0A7B0;
+    font-weight: bold;
+    font-size: large;
+}
+
+h1{
+    color: #A0A7B0;
+} 
+
+
+
+/* ===== Profile Picture ===== */
+#profilePic{
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+    border:5px solid #D99C6E; 
+}
+   
+
+#htmlIcon, #cssIcon, #jsIcon, #githubIcon, #linkedinIcon{
+width: 5vw; 
+height: 5vh; 
+}
+
+/* ===== Tech Stack Section ===== */
+.tech-stack{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tech{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+
+.tech-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 5vw;
+    max-width: 90%;
+    margin: auto;
+    padding: 5vw;
+    flex-wrap: wrap;
+}
+
+.tech-content {
+    text-align: center; 
+    flex-grow: 1;
+}
+
+.stat-box {
+    background-color: rgba(128, 128, 128, 0.6);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    min-width: 11%;
+}  
+
+.pair{
+    display: flex;
+    align-items: center;
+}
+.pair p{
+    color: #A0A7B0;
+}
+
+
+.bio{
+    width: 50%;
+    margin: 0 auto;
+    color: #D99C6E;
+}
+
+
+/* ===== About Me Block ===== */
+
+.aboutMe{
+    border: 2px solid black;
+    max-width: 450px; 
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    color: #D99C6E;
+    background-color: #0f1a25;
+
+}
+
+/* ===== Projects Section ===== */
+#project1, #project2 {
+    border: 7px solid #0f1a25;
+    width: 100%;        
+    max-width: 50%;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+#project1:hover, #project2:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px  #D99C6E;
+}
+
+.caption{
+    width: 65%; 
+     margin: auto;
+    margin-bottom: 80px; 
+    color: #D1D1D1;
+    font-weight: bold;
+    
+}
+
+/* ===== Experience Block ===== */
+.experience-block{
+    border: 6px solid rgb(127, 99, 65);
+    width: 80%;
+    margin: auto;
+    color: #e6a473;
+    background-color: #0c1722;
+}
+
+.experience-block ul >li {
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+/* ===== Interests Section ===== */
+.interests {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.interest {
+    border: 2px solid #808080;
+    width: 100%; 
+    max-width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #3A3A3A;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    color: #D1D1D1;
+    margin-bottom: 60px;
+}
+
+.interest:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.6); 
+}
+
+/* ===== Contact Form ===== */
+form {
+    margin-top: 40px;
+    padding: 1.5vw;
+    max-width: 500px; 
+    width: 80%;
+    background-color: #2F2F2F; 
+    border-radius: 10px;
+    margin: auto;
+}
+
+fieldset {
+    border: 2px solid #D99C6E;
+    background-color: #0f1a25;
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #D99C6E; 
+}
+
+label {
+    margin: 10px 0;
+    display: block;
+    color: #D99C6E;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #D99C6E;
+    background-color: #3A3A3A; 
+    color: #D99C6E; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #D99C6E;
+    color: #2F2F2F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+   
+}
+
+button:hover {
+    background-color: #b07b50; /* Light gray hover effect for button */
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+}
+
+.footSection {
+    margin: 10px;
+
+}
+
+.footSection h3 {
+    color: #f4a261;
+}
+
+.footBottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
