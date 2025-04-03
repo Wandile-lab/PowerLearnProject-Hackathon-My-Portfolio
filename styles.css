@@ -157,9 +157,9 @@ height: 5vh;
 
 /* ===== Projects Section ===== */
 #project1, #project2 {
-    border: 7px solid #0f1a25;
-    width: 100%;        
-    max-width: 50%;
+    border: 7px solid #0f1a25;        
+    max-width: 100%;
+    height: auto;
     transition: transform 0.4s ease-in-out;
 
 }
