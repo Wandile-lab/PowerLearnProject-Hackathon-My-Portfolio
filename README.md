@@ -1,62 +1,85 @@
-Wandile Ndlovu's Portfolio
+# Wandile Ndlovu's Portfolio
 
 Welcome to my personal portfolio website! This portfolio showcases my skills, background, and projects as an aspiring web developer.
 
-Table of Contents
-About
+## Table of Contents
+- About
+- Technologies Used
+- Educational Background
+- Projects
+- Contact
+- License
 
-Technologies Used
+---
 
-Educational Background
+## About
 
-Projects
+Hi! I'm **Wandile Ndlovu**, a passionate web developer from **Johannesburg, South Africa**. I specialize in building **interactive, user-friendly web applications** using **HTML, CSS, and JavaScript**. I'm constantly exploring new technologies and tools to enhance my skill set.
 
-Contact
+### Passion:
+- Web Development
+- Artificial Intelligence
+- Ethical Hacking
+- Building APIs
 
-License
+### Goal:
+To create **intuitive, clean, and functional websites** that solve real-world problems.
 
-About
-Hi! I'm Wandile Ndlovu, a passionate web developer from Johannesburg, South Africa. I specialize in building interactive, user-friendly web applications with HTML, CSS, and JavaScript. I'm always exploring new technologies and tools to further enhance my skill set.
+---
 
-Passion: Web development, AI, ethical hacking, and building APIs.
+## Technologies Used
 
-Goal: To create intuitive, clean, and functional websites that solve real-world problems.
+This portfolio website is built using:
 
-Technologies Used
-This portfolio website is built using the following technologies:
+- **HTML5** – Structuring the content of the website.
+- **CSS3** – Styling the layout, colors, and overall aesthetics.
+- **JavaScript** – Adding interactivity (if applicable, such as form validation or a light mode toggle).
+- **GitHub Pages / Netlify** – Hosting the portfolio.
 
-HTML5 - For structuring the content of the website.
+---
 
-CSS3 - For styling the layout, colors, and overall look and feel of the website.
+## Educational Background
 
-JavaScript - For basic interactivity (optional but can be included if you have any JS functionality like forms validation or light mode toggle).
+- **High School**: John Orr Engineering School of Specialisation
+- **Skills**:
+  - HTML, CSS, JavaScript
+  - Web Development
+  - Full-Stack Development (currently learning)
 
-GitHub Pages / Netlify - For hosting this portfolio.
+📄 **Download My CV** 
 
-Educational Background
-High School: John Orr Engineering School Of Specialisation
+---
 
-Skills: HTML, CSS, JavaScript, Web Development, Full-Stack Development (currently learning)
+## Projects
 
-You can download my CV for more details:
-Download My CV
+Here are some of the featured projects showcased in my portfolio:
 
-Projects
-Here are some of the projects featured on this portfolio:
+### **Admin Dashboard**
+A clean and modern interface for managing data and users, built with **HTML and CSS**.
 
-1. Admin Dashboard
-A clean and modern interface for managing data and users, built with HTML and CSS.
+### **Color Guessing Game**
+A fun game where you match a displayed color with multiple choices. Built with **HTML, CSS, and JavaScript**.
 
-2. Color Guessing Game
-A fun color guessing game where you match the displayed color with the color choices. Built with HTML, CSS, and JavaScript.
+### **Responsive Web Design**
+A project demonstrating **responsive design principles**, ensuring a seamless experience across mobile, tablet, and desktop devices.
 
-Responsive Web Design: Showcases responsive design principles, ensuring the site works well on mobile, tablet, and desktop devices.
+---
 
-Contact
-If you would like to reach out to me for collaborations or job opportunities, feel free to contact me via the form on the portfolio or through the following links:
+## Contact
 
-GitHub
+If you'd like to connect for collaborations, freelance work, or job opportunities, feel free to reach out via:
 
-LinkedIn
+- **GitHub**: [github.com/Wandile-lab](https://github.com/Wandile-lab)
+- **LinkedIn**: [linkedin.com/in/wandile-ndlovu](https://www.linkedin.com/in/wandile-ndlovu)
+- **Email**: [your-email@example.com] (optional)
 
-Email: [your-email@example.com] (optional)
+---
+
+## License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+### ⭐ Thank you for visiting my portfolio! Feel free to check out my projects and connect with me.
+
